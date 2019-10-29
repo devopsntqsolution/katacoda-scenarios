@@ -8,3 +8,4 @@ Khôi phục từng file:
 Hoặc khôi phục toàn bộ modified file:
 
 `git checkout .`{{copy}}
+

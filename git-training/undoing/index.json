@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Khôi phục files modified/staged",
+        "title": "Git checkout",
         "text": "step1.md",
         "answer": "step1-answer.md",
         "verify": "step1-verify.sh",
