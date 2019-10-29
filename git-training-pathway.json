@@ -3,9 +3,9 @@
   "description": "Git Training",
   "courses": [
     {
-      "course_id": "git",
-      "title": "Git Scenario",
-      "description": "Git Scenario"
+      "course_id": "undoing",
+      "title": "Undoing changes",
+      "description": "Using git commands to undo changes"
     }
   ]
 }

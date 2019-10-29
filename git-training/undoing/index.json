@@ -1,6 +1,6 @@
 {
-  "title": "Git Scenario",
-  "description": "Git Scenario",
+  "title": "Undoing changes",
+  "description": "Using git commands to undo changes",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -16,6 +16,14 @@
       {
         "title": "Step 3",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md"
       }
     ],
     "intro": {
@@ -23,14 +31,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {
-          "file": "index.json",
-          "target": "git"
-        }
-      ]
     }
   },
   "environment": {
