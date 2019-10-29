@@ -7,7 +7,6 @@ Thư mục làm việc được khởi tạo với 1 số **modified** files
 - Lấy lại thay đổi từ lệnh `git stash` đầu tiên
 
 ## Expected 
-
 - Các thay đổi ban đầu được giữ nguyên
 
 
