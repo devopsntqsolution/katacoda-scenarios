@@ -7,5 +7,5 @@
 - Hiển thị các stash:
 `git stash list`{{copy}}
 
-- Lấy lại các thay đổi sau khi chạy lệnh `git stash` :
+- Lấy lại các thay đổi sau khi chạy lệnh `git stash`:
 `git stash pop stash@{n}` # n là thứ tự stash trong stash list, 0 là stash gần nhất
