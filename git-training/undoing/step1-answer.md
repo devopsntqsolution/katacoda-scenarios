@@ -1,3 +1,6 @@
+Hiển thị các file thay đổi:
+`git status`{{copy}}
+
 Khôi phục từng file:
 
 `git checkout -- file1.txt`{{copy}}
