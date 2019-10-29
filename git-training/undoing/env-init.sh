@@ -7,6 +7,9 @@ echo "File 4 content" >> file4.txt
 
 git init
 
+git config user.name "John Doe"
+git config user.email johndoe@example.com
+
 git add file1.txt
 git commit -m "Add new file 1"
 
