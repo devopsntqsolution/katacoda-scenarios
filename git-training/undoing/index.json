@@ -25,6 +25,13 @@
         "answer": "step3/answer.md",
         "verify": "step3/verify.sh",
         "courseData": "step3/init.sh"
+      },
+      {
+        "title": "Git stash",
+        "text": "step4/step.md",
+        "answer": "step4/answer.md",
+        "verify": "step4/verify.sh",
+        "courseData": "step4/init.sh"
       }
     ],
     "intro": {
