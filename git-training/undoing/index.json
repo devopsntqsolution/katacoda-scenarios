@@ -11,7 +11,7 @@
         "answer": "step1-answer.md",
         "verify": "step1-verify.sh",
         "courseData": "step1-init.sh"
-      },
+      }
     ],
     "intro": {
       "text": "intro.md",
