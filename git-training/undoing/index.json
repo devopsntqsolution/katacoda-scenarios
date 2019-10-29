@@ -20,7 +20,7 @@
         "courseData": "step2/init.sh"
       },
       {
-        "title": "Git reset (trở lại version trước)",
+        "title": "Git revert (revert existing commits)",
         "text": "step3/step.md",
         "answer": "step3/answer.md",
         "verify": "step3/verify.sh",

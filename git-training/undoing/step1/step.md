@@ -5,3 +5,6 @@ Thư mục làm việc được khởi tạo với 1 số file bị thay đổi 
 
 git checkout -- <path_to_file>  # check out từng file
 git checkout .                  # checkout tất cả các files
+
+## Expected
+Tất cả các **modified** file về trạng thái **unchange**
