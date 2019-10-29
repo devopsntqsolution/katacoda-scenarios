@@ -2,7 +2,7 @@
   "title": "Undoing changes",
   "description": "Using git commands to undo changes",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "5-10 minutes",
   "details": {
     "steps": [
       {
@@ -14,7 +14,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"
