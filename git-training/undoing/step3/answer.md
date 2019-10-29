@@ -4,6 +4,6 @@
 ### Revert commit đầu tiên
 `git revert <commit_id>`
 
-### Revert 3 commits gần nhất
+### Revert 3 commits từ commit thứ 2
 `git revert HEAD~2...HEAD~5`
 
