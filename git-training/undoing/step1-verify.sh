@@ -1,1 +1,1 @@
-git status | grep "working tree clean" && echo "done"
+git status | grep "nothing to commit" && echo "done"
