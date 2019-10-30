@@ -1,7 +1,7 @@
 ### Xem git history
 `git log --oneline`{{copy}}
 
-### Revert commit đầu tiên
+### Revert commit theo commit id
 `git revert <commit_id>`
 
 ### Revert 3 commits từ commit thứ 2

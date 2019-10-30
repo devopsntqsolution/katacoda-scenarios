@@ -6,6 +6,11 @@
       "course_id": "undoing",
       "title": "Undoing changes",
       "description": "Using git commands to undo changes"
+    },
+    {
+      "course_id": "updating-branch",
+      "title": "Updating branch",
+      "description": "Using git merge/rebase to update branch"
     }
   ]
 }
