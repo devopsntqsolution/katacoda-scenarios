@@ -11,6 +11,13 @@
         "answer": "step1/answer.md",
         "verify": "step1/verify.sh",
         "courseData": "step1/init.sh"
+      },
+      {
+        "title": "Git rebase",
+        "text": "step2/step.md",
+        "answer": "step2/answer.md",
+        "verify": "step2/verify.sh",
+        "courseData": "step2/init.sh"
       }
     ],
     "intro": {
