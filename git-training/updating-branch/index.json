@@ -18,6 +18,13 @@
         "answer": "step2/answer.md",
         "verify": "step2/verify.sh",
         "courseData": "step2/init.sh"
+      },
+      {
+        "title": "Resolve merge conflict",
+        "text": "step3/step.md",
+        "answer": "step3/answer.md",
+        "verify": "step3/verify.sh",
+        "courseData": "step3/init.sh"
       }
     ],
     "intro": {
