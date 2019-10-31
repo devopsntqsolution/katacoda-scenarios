@@ -1,7 +1,9 @@
-Thư mục làm việc được khởi tạo với 2 nhánh **feature_1** và **master** với 1 số commits
+Thư mục làm việc được khởi tạo với nhánh feature/1 với 1 số commits.
+Đồng thời trên remote repository có code mới được cập nhận.
 
 ## Task
-- Sử dụng lệnh `git merge` để merge code từ **feature_1** vào **master**
+- Sử dụng lệnh git pull cập nhật code mới nhất cho nhánh
 
 ## Expected
-- các cập nhật của **feature_1** được merge vào **master**
+- Code mới nhất của nhánh feature/1 trên remote được cập nhật về nhánh feature/1 trên local
+

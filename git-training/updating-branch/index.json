@@ -6,25 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Git merge",
+        "title": "Git pull",
         "text": "step1/step.md",
         "answer": "step1/answer.md",
         "verify": "step1/verify.sh",
-        "courseData": "step1/init.sh"
-      },
-      {
-        "title": "Git rebase",
-        "text": "step2/step.md",
-        "answer": "step2/answer.md",
-        "verify": "step2/verify.sh",
-        "courseData": "step2/init.sh"
-      },
-      {
-        "title": "Resolve merge conflict",
-        "text": "step3/step.md",
-        "answer": "step3/answer.md",
-        "verify": "step3/verify.sh",
-        "courseData": "step3/init.sh"
+        "courseData": "step1/init.sh",
+        "code": "step1/code.sh"
       }
     ],
     "intro": {

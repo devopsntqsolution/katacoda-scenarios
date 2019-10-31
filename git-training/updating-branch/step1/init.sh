@@ -1,13 +1,25 @@
 #!/bin/sh
 
-git checkout -b feature_1
-echo "[1] Update new content file1 from feature 1" >> file1.txt
-git commit -am "[1] Update from feature_1"
+cd working
 
-echo "[2] Update new content file1 from feature 1" >> file1.txt
-git commit -am "[2] Update from feature_1"
+echo "update feature/1" | tee -a file1.txt file2.txt
 
-git checkout master
+git add file1.txt
+git commit -m "[1][feature/1] You update file1.txt"
+
+git add file2.txt
+git commit -m "[2][feature/1] You update file2.txt"
+
+cd ../repository
 sleep 1
-echo "[3] Update new content file2 from master" >> file2.txt
-git commit -am "[3] Update from master"
+git fetch origin
+git checkout feature/1
+echo "update feature/1" | tee -a file1.txt file2.txt
+
+git add file1.txt
+git commit -m "[3][feature/1] Another update file1.txt"
+
+git add file2.txt
+git commit -m "[3][feature/1] Another update file2.txt"
+
+cd ..

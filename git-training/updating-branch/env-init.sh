@@ -1,19 +1,22 @@
 #!/bin/sh
-echo "File 1 content" >> file1.txt
-echo "File 2 content" >> file2.txt
-echo "File 3 content" >> file3.txt
-echo "File 4 content" >> file4.txt
+mkdir repository
+cd repository
+
+echo "from master" | tee -a file1.txt file2.txt file3.txt file4.txt
 
 git init
 
 git add file1.txt
-git commit -m "Add new file 1"
+git commit -m "[1] Add file 1"
 
 git add file2.txt
-git commit -m "Add new file 2"
+git commit -m "[2] Add file 2"
 
 git add file3.txt
-git commit -m "Add new file 3"
+git commit -m "[3] Add file 3"
 
 git add file4.txt
-git commit -m "Add new file 4"
+git commit -m "[4] Add file 4"
+
+cd ..
+git clone -b master repository working

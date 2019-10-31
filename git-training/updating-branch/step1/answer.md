@@ -1,9 +1,13 @@
-### Hiển thị danh sách các nhánh và commit gần nhất
-`git branch -av`{{copy}}
+### Pull code mới nhất
+`git pull origin feature/1`
 
-### Merge nhánh feature_1 vào master
-`git merge feature_1`
+### Resolve conflict
+`git checkout --theirs <path_to_file>`
+`git checkout --ours <path_to_file>`
+hoặc dùng vim editor để resolve conflict.
 
-### Hiển thị lịch sử commits
-`git log` 
+sau khi resolve:
+`git add <path_to_file>`
 
+### Commit
+`git commit --no-edit`
