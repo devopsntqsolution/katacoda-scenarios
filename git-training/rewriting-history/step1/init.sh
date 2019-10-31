@@ -7,11 +7,14 @@ git branch feature/1
 git branch feature/2
 git branch feature/3
 git branch feature/4
+git push --all origin
 
 git checkout feature/1
 echo "[feature/1] updated by yourself" >> file1.txt
 git add file1.txt
 git commit -m "[feature/1] update file1.txt"
+
+git push origin feature/1
 
 # add new commit to local feature/1 branch
 cd ../working

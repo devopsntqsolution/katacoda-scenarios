@@ -4,6 +4,7 @@
 cd repository
 git checkout master
 git branch feature/1
+git push --all origin
 
 # add new commit to local feature/1 branch
 cd ../working
@@ -28,3 +29,7 @@ git commit -m "[3][feature/1] Another update file1.txt"
 
 git add file2.txt
 git commit -m "[4][feature/1] Another update file2.txt"
+
+git push --all origin
+
+cd ../working
