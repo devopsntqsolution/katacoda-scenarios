@@ -10,7 +10,17 @@
     {
       "course_id": "updating-branch",
       "title": "Updating branch",
-      "description": "Using git merge/rebase to update branch"
+      "description": "Using git commands to update branch"
+    },
+    {
+      "course_id": "rewriting-history",
+      "title": "Rewriting History",
+      "description": "Using git commands to rewrite history"
+    },
+    {
+      "course_id": "other",
+      "title": "Other git commands",
+      "description": "Other git commands"
     }
   ]
 }
