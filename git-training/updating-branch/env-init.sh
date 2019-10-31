@@ -4,7 +4,7 @@ cd repository
 
 echo "Init" | tee -a file1.txt file2.txt file3.txt file4.txt
 
-git init
+git init --bare
 
 git add file1.txt
 git commit -m "[1] Add file 1"
