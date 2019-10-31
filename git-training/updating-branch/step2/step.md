@@ -5,4 +5,4 @@ Thư mục làm việc được khởi tạo với nhánh **feature/2** với 1 
 - Sử dụng lệnh git pull cập nhật code mới nhất cho nhánh
 
 ## Expected
-- Code mới nhất của nhánh feature/2 trên remote được cập nhật về nhánh feature/1 trên local và không sinh ra bất kỳ commit mới nào trong quá trình cập nhật
+- Code mới nhất của nhánh **feature/2** trên remote được cập nhật về nhánh **feature/2** trên local và không sinh ra bất kỳ commit mới nào trong quá trình cập nhật.
