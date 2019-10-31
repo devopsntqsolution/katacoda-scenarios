@@ -2,7 +2,7 @@
 mkdir repository
 cd repository
 
-echo "from master" | tee -a file1.txt file2.txt file3.txt file4.txt
+echo "Init" | tee -a file1.txt file2.txt file3.txt file4.txt
 
 git init
 
