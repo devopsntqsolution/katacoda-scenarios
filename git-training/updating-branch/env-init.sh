@@ -3,12 +3,10 @@ git init --bare repository.git
 
 mkdir repository
 cd repository
-
 git init
 git remote add origin ../repository.git
 
 echo "Init" | tee -a file1.txt file2.txt file3.txt file4.txt
-
 
 git add file1.txt
 git commit -m "[1] Add file 1"

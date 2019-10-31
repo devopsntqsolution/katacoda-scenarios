@@ -32,5 +32,3 @@ git add file2.txt
 git commit -m "[4][feature/x] Another update file2.txt"
 
 git push --all origin
-
-cd ../working

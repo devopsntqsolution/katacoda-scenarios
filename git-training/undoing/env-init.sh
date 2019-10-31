@@ -4,7 +4,7 @@ echo "File 2 content" >> file2.txt
 echo "File 3 content" >> file3.txt
 echo "File 4 content" >> file4.txt
 
-git init --bare
+git init
 
 git add file1.txt
 git commit -m "Add new file 1"
