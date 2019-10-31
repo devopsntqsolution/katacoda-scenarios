@@ -4,13 +4,16 @@
 ### Resolve conflict
 `git checkout --theirs <path_to_file>`
 `git checkout --ours <path_to_file>`
-hoặc dùng vim editor để resolve conflict.
+hoặc dùng editor để resolve conflict.
 
-sau khi resolve:
+### Đánh dấu file đã được resolved:
 `git add <path_to_file>`
 
-### Commit
+### Commit merge
 `git commit --no-edit`{{copy}}
 
-### undo merge
+### Bỏ qua quá trình merge
+`git merge --abort`
+
+### Undo merge
 `git reset --merge ORIG_HEAD`{{copy}}

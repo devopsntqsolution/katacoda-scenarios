@@ -28,6 +28,14 @@
         "verify": "step3/verify.sh",
         "courseData": "step3/init.sh",
         "code": "step3/code.sh"
+      },
+       {
+        "title": "git rebase",
+        "text": "step4/step.md",
+        "answer": "step4/answer.md",
+        "verify": "step4/verify.sh",
+        "courseData": "step4/init.sh",
+        "code": "step4/code.sh"
       }
     ],
     "intro": {
