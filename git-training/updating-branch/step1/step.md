@@ -1,5 +1,5 @@
-Thư mục làm việc được khởi tạo với nhánh feature/1 với 1 số commits.
-Đồng thời trên remote repository có code mới được cập nhận.
+Thư mục làm việc được khởi tạo với nhánh **feature/1** với 1 số commits.
+Đồng thời trên remote repository nhánh **feature/1** cũng có code mới được cập nhật.
 
 ## Task
 - Sử dụng lệnh git pull cập nhật code mới nhất cho nhánh

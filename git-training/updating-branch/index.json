@@ -6,12 +6,18 @@
   "details": {
     "steps": [
       {
-        "title": "Git pull",
+        "title": "git pull",
         "text": "step1/step.md",
         "answer": "step1/answer.md",
         "verify": "step1/verify.sh",
-        "courseData": "step1/init.sh",
-        "code": "step1/code.sh"
+        "courseData": "step1/init.sh"
+      },
+      {
+        "title": "git pull --rebase",
+        "text": "step2/step.md",
+        "answer": "step2/answer.md",
+        "verify": "step2/verify.sh",
+        "courseData": "step2/init.sh"
       }
     ],
     "intro": {
