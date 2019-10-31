@@ -9,5 +9,5 @@ Giả sử chỉ *Owner* mới có quyền `merge` vào nhánh **integration/4**
 
 ## Expected
 - Khi thực hiện resolve conflict, không có commit mới được sinh ra
-- Code từ **feature/3** được `merge` vào **integration/3**
+- Code từ **feature/3** được `merge` vào **integration/3** không xảy ra code conflicts
 - Nhánh **feature/3** và **integration/3** trên remote được cập nhật

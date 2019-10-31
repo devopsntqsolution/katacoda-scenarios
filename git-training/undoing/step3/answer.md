@@ -6,4 +6,3 @@
 
 ### Revert 3 commits từ commit thứ 2
 `git revert HEAD~2...HEAD~5`
-

@@ -59,3 +59,19 @@ git commit -m "[feature/3] update file3.txt"
 
 git add file4.txt
 git commit -m "[feature/3] update file4.txt"
+
+
+git checkout feature/4
+echo "[feature/4] updated by yourself" | tee -a file1.txt file2.txt file3.txt file4.txt
+
+git add file1.txt
+git commit -m "[feature/4] update file1.txt"
+
+git add file2.txt
+git commit -m "[feature/4] update file2.txt"
+
+git add file3.txt
+git commit -m "[feature/4] update file3.txt"
+
+git add file4.txt
+git commit -m "[feature/4] update file4.txt"
