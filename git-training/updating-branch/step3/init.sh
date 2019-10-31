@@ -1,13 +1,31 @@
 #!/bin/sh
 
-git checkout -b feature_1
-echo "[1] Update new content file1 from feature 1" >> file1.txt
-git commit -am "[1] Update from feature_1"
-
-echo "[2] Update new content file1 from feature 1" >> file1.txt
-git commit -am "[2] Update from feature_1"
-
+# create feature/3 branch
+cd repository
 git checkout master
+git branch feature/3
+git branch integration/3
+
+# add new commit to local feature/3 branch
+cd ../working
+git fetch origin
+git checkout feature/3
+echo "[feature/3] updated by yourself" | tee -a file1.txt file2.txt
+
+git add file1.txt
+git commit -m "[1][feature/3] You update file1.txt"
+
+git add file2.txt
+git commit -m "[2][feature/3] You update file2.txt"
+
+# add new commit to remote feature/3 branch
+cd ../repository
 sleep 1
-echo "[3] Update new content file2 from master" >> file2.txt
-git commit -am "[3] Update from master"
+git checkout integration/3
+echo "[feature/x] updated by another" | tee -a file1.txt file2.txt
+
+git add file1.txt
+git commit -m "[3][feature/x] Another update file1.txt"
+
+git add file2.txt
+git commit -m "[4][feature/x] Another update file2.txt"

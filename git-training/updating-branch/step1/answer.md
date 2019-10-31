@@ -1,5 +1,5 @@
 ### Pull code mới nhất
-`git pull origin feature/1`
+`git pull origin feature/1`{{copy}}
 
 ### Resolve conflict
 `git checkout --theirs <path_to_file>`
@@ -10,7 +10,7 @@ sau khi resolve:
 `git add <path_to_file>`
 
 ### Commit
-`git commit --no-edit`
+`git commit --no-edit`{{copy}}
 
 ### undo merge
-`git reset --merge ORIG_HEAD`
+`git reset --merge ORIG_HEAD`{{copy}}

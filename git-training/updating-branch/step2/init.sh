@@ -9,7 +9,7 @@ git branch feature/2
 cd ../working
 git fetch origin
 git checkout feature/2
-echo "[feature/2] updated by you" | tee -a file3.txt file4.txt
+echo "[feature/2] updated by yourself" | tee -a file3.txt file4.txt
 
 git add file3.txt
 git commit -m "[1][feature/2] You update file3.txt"

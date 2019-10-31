@@ -1,7 +1,8 @@
-Thư mục làm việc được khởi tạo với 2 nhánh **feature_1** và **master** với 1 số commits
+Thư mục làm việc được khởi tạo với nhánh **feature/3** với 1 số thay đổi đã được commit.
+Nhánh **feature/3** cần được merge vào nhánh **integration/3**
 
 ## Task
-- Sử dụng lệnh `git merge` để merge code từ **feature_1** vào **master**
+- Sử dụng lệnh `git merge` để merge code mới nhất từ **feature/3** vào nhánh **integration/3**
 
 ## Expected
-- các cập nhật của **feature_1** được merge vào **master**
+- Code từ **feature/3** được merge vào **integration/3**
