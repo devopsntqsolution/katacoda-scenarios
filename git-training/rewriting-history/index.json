@@ -2,16 +2,9 @@
   "title": "Rewriting History",
   "description": "Using git commands to rewrite history",
   "difficulty": "Beginner",
-  "time": "5-10 minutes",
+  "time": "20-30 minutes",
   "details": {
     "steps": [
-      {
-        "title": "git rebase",
-        "text": "step1/step.md",
-        "answer": "step1/answer.md",
-        "verify": "step1/verify.sh",
-        "courseData": "step1/init.sh"
-      },
       {
         "title": "git commit --amend",
         "text": "step2/step.md",
@@ -25,6 +18,13 @@
         "answer": "step3/answer.md",
         "verify": "step3/verify.sh",
         "courseData": "step3/init.sh"
+      },
+      {
+        "title": "git rebase",
+        "text": "step1/step.md",
+        "answer": "step1/answer.md",
+        "verify": "step1/verify.sh",
+        "courseData": "step1/init.sh"
       }
     ],
     "intro": {

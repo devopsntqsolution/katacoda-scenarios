@@ -2,16 +2,27 @@
   "title": "Other git commands",
   "description": "Other git commands",
   "difficulty": "Beginner",
-  "time": "5-10 minutes",
+  "time": "10-15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "git cherry-pick",
+        "text": "step1/step.md",
+        "answer": "step1/answer.md",
+        "verify": "step1/verify.sh",
+        "courseData": "step1/init.sh"
+      },
+      {
+        "title": "git reflog",
+        "text": "step2/step.md",
+        "answer": "step2/answer.md",
+        "verify": "step2/verify.sh",
+        "courseData": "step2/init.sh"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"

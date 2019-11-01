@@ -2,7 +2,7 @@
   "title": "Updating branch",
   "description": "Using git merge/rebase to update branch",
   "difficulty": "Beginner",
-  "time": "5-10 minutes",
+  "time": "10-20 minutes",
   "details": {
     "steps": [
       {
