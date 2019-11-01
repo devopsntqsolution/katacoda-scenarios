@@ -6,11 +6,25 @@
   "details": {
     "steps": [
       {
-        "title": "Git checkout",
+        "title": "git rebase",
         "text": "step1/step.md",
         "answer": "step1/answer.md",
         "verify": "step1/verify.sh",
         "courseData": "step1/init.sh"
+      },
+      {
+        "title": "git commit --amend",
+        "text": "step2/step.md",
+        "answer": "step2/answer.md",
+        "verify": "step2/verify.sh",
+        "courseData": "step2/init.sh"
+      },
+      {
+        "title": "git reset --hard",
+        "text": "step3/step.md",
+        "answer": "step3/answer.md",
+        "verify": "step3/verify.sh",
+        "courseData": "step3/init.sh"
       }
     ],
     "intro": {
